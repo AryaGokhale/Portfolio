@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="http://127.0.0.1:5500/portfolio/index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio/mqtt_page.html">MQTT Portal</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio/visION_page.html">visION</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Single Line Text Editor</a>
+                  </div>
+                </li>
+          </nav>
+
+
+
+        <div class="container-fluid my-4 text-black" style="background-color: #F1FAEE" >
+            <h1>MQTT message service</h1>
+            <h3>Project description :</h3> 
+            <p>Real time chat platform using MQTT protocol.</p>
+            <li>Client: HTML Client (basic html and JavaScript application)</li>
+            <li>Broker: mosquitto-2.0.11</li>
+            <li>Server: Server side using Python and paho.mqtt.java-master</li>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+            <img class="d-block w-10" src="https://raw.githubusercontent.com/AryaGokhale/PORTAL/main/sample/broker.png" alt="broker">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>MQTT broker</h5>
+                <p>MQTT broker is activated</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+            <img class="d-block w-10" src="https://raw.githubusercontent.com/AryaGokhale/PORTAL/main/sample/server.png" alt="server">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Server</h5>
+                <p>Python server connected to MQTT broker</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            
+            <div class="d-flex justify-content-center">
+            <img class="d-block w-10" src="https://raw.githubusercontent.com/AryaGokhale/PORTAL/main/sample/send_message_create_new_group.png" alt="send message create new group">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Publish Subscribe Mechanism</h5>
+                <p>Subscribe to command topic (default for all the users)</p>
+                <p>You can create desired topics as well and then connect (subscribe) to them and publish daa on it</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">=
+            <img class="d-block w-10" src="https://raw.githubusercontent.com/AryaGokhale/PORTAL/main/sample/changes_in_server.png" alt="server side changes">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Server side changes</h5>
+                <p>Message passes through the server</p>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+    </body>
+</html>
+
+
+

@@ -2,17 +2,50 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel = 'beautify' href = "beautify.css">
-<title>Portfolio homepage</title>
+    
+<title>Portfolio</title>
 </head>
 <body>
-<div class="container-fluid text-white" style="background-color: #003153" >
-    <h3>
-        ABOUT ME: 
-        <small class="text-muted">I am Arya Gokhale, TY CSE student from MIT-WPU.</small>
-    </h3>
-    <a href="https://www.linkedin.com/in/arya-gokhale-7a7009201/" class="btn btn-info" role="button">LinkedIn</a>
-    <a href="https://github.com/AryaGokhale" class="btn btn-info" role="button">GitHub</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio/mqtt_page.html">MQTT Portal</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://127.0.0.1:5500/portfolio/visION_page.html">visION</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Single Line Text Editor</a>
+              </div>
+            </li>
+      </nav>
+
+
+<div id='about-me' class="container-fluid my-4 text-white" style="background-color: #003153">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHz5k8LFkVtHQ/profile-displayphoto-shrink_800_800/0/1652002271385?e=1665014400&v=beta&t=46v1VibJ5hsPRAOPVawPGX3ShkSUVHoLmgIHYHx3hWk" alt="self potrait" class="img-thumbnail" width="200" height="200">
+    <h3 class= "text-centre" >HELLO,</h3>
+        <p>I am Arya Gokhale.</p>
+        <p>I am a Third Year undergraduate student in MIT-WPU pursuing an engineering degree in Computer Science.</p>
+        <p>I am enthusiast for find creative and innovative solutions for real world problems through technical skills.</p>
 </div>
+<div id='connect' class="container-fluid my-4 text-white" style="background-color: #003153">
+          <h3 >Connect with me:</h3>
+          <a href="https://www.linkedin.com/in/arya-gokhale-7a7009201/" class="btn btn-info" role="button">LinkedIn</a>
+          <a href="https://github.com/AryaGokhale" class="btn btn-info" role="button">GitHub</a>
+</div>
+</div>
+
 </body>
 </html>

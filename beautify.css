@@ -1,17 +1,28 @@
-body{
+.body{
 
     background-color: #F1FAEE;
 
 }
 
-h1
+.h1
 {
-    font-family: Georgia;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
 }
 
-p {
-    font-family: Georgia;
+.container-fluid my-4 text-white p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
+.container-fluid my-4 text-white{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 600px;
+  }
